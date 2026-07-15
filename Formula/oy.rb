@@ -1,28 +1,28 @@
 class Oy < Formula
   desc "Step-through diff viewer for the terminal"
   homepage "https://github.com/ahkohd/oyo"
-  version "0.1.49"
+  version "0.1.50"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahkohd/oyo/releases/download/v0.1.49/oy-aarch64-apple-darwin.tar.gz"
-      sha256 "6db059e5818ad3766198aa542e6e4c8bf919c839d37079425fa9ca58eb420a13"
+      url "https://github.com/ahkohd/oyo/releases/download/v0.1.50/oy-aarch64-apple-darwin.tar.gz"
+      sha256 "fc1a93bc0a4fe62407a4e679ccb8ca15eba1ac3b8d5018d7144c844250766efc"
     end
     on_intel do
-      url "https://github.com/ahkohd/oyo/releases/download/v0.1.49/oy-x86_64-apple-darwin.tar.gz"
-      sha256 "43564df017a92f9d8b64be7f0095e3fa22a50ba008d07e84b43dde9c7b9c1b39"
+      url "https://github.com/ahkohd/oyo/releases/download/v0.1.50/oy-x86_64-apple-darwin.tar.gz"
+      sha256 "03d39e208b4982cfbd20ee813c0f80c1067b06f8af4cbbc79ee6e4f913b70faa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ahkohd/oyo/releases/download/v0.1.49/oy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b4d1aa2400c0ec41e07e4ecbee183556b201c6f9726ab8fc82a96888e9bb20e7"
+      url "https://github.com/ahkohd/oyo/releases/download/v0.1.50/oy-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a04b9219b189aa5bf72cf1ae68028eb98e8840b542a1d7208de92e7526125011"
     end
     on_arm do
-      url "https://github.com/ahkohd/oyo/releases/download/v0.1.49/oy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2226ff063326e346a8e5b5e7aafd0066ca5e4efca7ae8ee1733b23126fce77b5"
+      url "https://github.com/ahkohd/oyo/releases/download/v0.1.50/oy-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ced829177ffb95c295b9fdb53dab31dc83d0157bcf0a5cc2730f87cba15cca2c"
     end
   end
 
